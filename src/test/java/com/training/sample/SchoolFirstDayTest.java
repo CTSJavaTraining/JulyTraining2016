@@ -20,28 +20,28 @@ public class SchoolFirstDayTest {
 	// Will be performed before all test.
 	public void testBeforeClass()
 	{
-		System.out.println("Setup for test complete.");
+		System.out.println("Before all test start");
 	}
 
 	@AfterClass
 	// Will be performed after all test.
 	public void testAfterClass()
 	{
-		System.out.println("Test complete.");
+		System.out.println("After all test complete.");
 	}
 
 	@Before
 	// Will be performed before each test.
 	public void testBrforeEachTest()
 	{
-		System.out.println("Setup for test complete.");
+		System.out.println("Before each test");
 	}
 
 	@After
 	// Will be performed after each test.
 	public void testAfterEachTest()
 	{
-		System.out.println("Test complete.");
+		System.out.println("After each test.");
 	}
 	
 	@Test
