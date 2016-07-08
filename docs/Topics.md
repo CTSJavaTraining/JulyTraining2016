@@ -1,6 +1,6 @@
 **Topics**
 
-**1. Core Java**
+*1. Core Java*
 
 1.1 Core Java
 
@@ -58,7 +58,7 @@
 - JMS Queue
 - JMS Topic
 
-**2. SPRING**
+*2. SPRING*
 
 2.1 Spring IOC
 
@@ -94,7 +94,7 @@
 - Step
 - Configuring and Running a job
 
-**3. DATABASE and ORM**
+*3. DATABASE and ORM*
 
 3.0 Database concepts
 
@@ -136,7 +136,7 @@
 - Query methods
 - creating repository instances
 
-**4. Web services**
+*4. Web services*
 
 4.1 Introduction
 
@@ -165,7 +165,7 @@
 - Handling Faults
 - Publisher Class
 
-**5. Build tools**
+*5. Build tools*
 
 5.1 Introduction
 
@@ -173,7 +173,7 @@
 
 5.3 POM files and life cycle
 
-**6. LOGGING**
+*6. LOGGING*
 
 6.1 Introduction
 
@@ -186,7 +186,7 @@
 - Log formatting
 - Logging in files
 
-**7.  GIT**
+*7.  GIT*
 
 - GIT - Commands
 - Git pull
@@ -196,16 +196,16 @@
 - Git add &lt;file name&gt;
 - Feature Branching strategy and merging
 
-**8. Tomcat Server**
+*8. Tomcat Server*
 
 - server.xml  ( Ports )
 - Start stop server
 - Deploy application to webapp
 - Enable http https
 
-**9. Junits Cobertura/Jacoco Code quality**
+*9. Junits Cobertura/Jacoco Code quality*
 
-**10. Design principles (Will be covered in anyone day)**
+*10. Design principles (Will be covered in anyone day)*
 
 - S – Single-responsibility principle
 - O– Open-closed principle
