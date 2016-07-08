@@ -41,7 +41,6 @@
 - Functional interfaces
 - Default methods in interface
 - New Date time API
-
 - Method references
 
 **1.5 Streams and Lambdas**
