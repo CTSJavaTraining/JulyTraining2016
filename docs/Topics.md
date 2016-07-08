@@ -1,4 +1,4 @@
-**Topics**
+***Topics***
 
 *1. Core Java*
 
@@ -44,8 +44,7 @@
 
 - Method references
 
-1.
-  1. 5.Streams and Lambdas
+1.5. Streams and Lambdas
 
 - Why Lambdas and Syntax
 - Internal vs external iteration
