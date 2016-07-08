@@ -1,8 +1,8 @@
-***Topics***
+# Topics
 
 *1. Core Java*
 
-1.1 Core Java
+**1.1 Core Java**
 
 - Class + Objects
 - Interface &amp; Abstract class
@@ -14,7 +14,7 @@
 - Exception handling
 - Serialization
 
-1.2 Concurrency package
+**1.2 Concurrency package**
 
 - Multithreading benefits
 - Creating and starting java threads
@@ -27,7 +27,7 @@
 - Lock
 - Semaphore
 
-1.3. Collections and Concurrent collections
+**1.3 Collections and Concurrent collections**
 
 - Benefits of collections Framework
 - Java collections Interfaces
@@ -35,7 +35,7 @@
 - Collections classes
 - Thread safe collections
 
-1.4. Overview of Java 8 and Functional programming
+**1.4 Overview of Java 8 and Functional programming**
 
 - New features
 - Functional interfaces
@@ -44,14 +44,14 @@
 
 - Method references
 
-1.5. Streams and Lambdas
+**1.5 Streams and Lambdas**
 
 - Why Lambdas and Syntax
 - Internal vs external iteration
 - Types of streams
 - Processing order
 
-1.6. JMS
+**1.6 JMS**
 
 - Overview and Concepts
 - JMS Queue
@@ -59,14 +59,14 @@
 
 *2. SPRING*
 
-2.1 Spring IOC
+**2.1 Spring IOC**
 
 - Container and Bean overview
 - Dependencies
 - Bean Scope
 - Annotations
 
-2.2 Spring AOP
+**2.2 Spring AOP**
 
 - @AspectJ Annotation
 - Schema based AOP support
@@ -77,14 +77,14 @@
 - AOP API
 - AOP Proxy factory
 
-2.3 Spring Boot
+**2.3 Spring Boot**
 
 - Dependency Management (POM, MAVEN)
 - Structuring and Configuring Classes
 - Spring Beans and Dependency Injection
 - @ SpringBootApplication Annotation
 
-2.4 Spring Batch
+**2.4 Spring Batch**
 
 - Usage Scenarios
 - Spring batch Architecture
@@ -95,21 +95,21 @@
 
 *3. DATABASE and ORM*
 
-3.0 Database concepts
+**3.1 Database concepts**
 
 - Different joins
 - Index
 - B-Tree
 
-3.1 Advantages and Object states
+**3.2 Advantages and Object states**
 
 - Transient
 - Persistent
 - Detached
 
-3.2 JPA and its specification
+**3.2 JPA and its specification**
 
-3.3 Inheritance and Association in JPA &amp; Integration
+**3.3 Inheritance and Association in JPA &amp; Integration**
 
 - Inheritance in JPA
 - Joined SubClass
@@ -123,13 +123,13 @@
 - JPA ORM Components
 - JPA - Criteria API
 
-3.4 Spring Transaction management
+**3.4 Spring Transaction management**
 
 - Global transactions
 - Local transactions
 - Declarative transaction management
 
-3.5 Spring Data JPA
+**3.5 Spring Data JPA**
 
 - Core Concepts
 - Query methods
@@ -137,13 +137,12 @@
 
 *4. Web services*
 
-4.1 Introduction
+**4.1 Introduction**
 
-4.2 REST VS SOAP
+**4.2 REST VS SOAP**
 
-4.3 REST web services
+**4.3 REST web services**
 
--
   - HTTP Request Components
   - HTTP Response Components
   - Addressing
@@ -152,7 +151,7 @@
   - HTTP Method Classification
   - Idempotent Methods
 
-4.4 SOAP web services
+**4.4 SOAP web services**
 
 - UDDI
 - Service endpoint interface
@@ -166,19 +165,19 @@
 
 *5. Build tools*
 
-5.1 Introduction
+**5.1 Introduction**
 
-5.2 Maven commands
+**5.2 Maven commands**
 
-5.3 POM files and life cycle
+**5.3 POM files and life cycle**
 
 *6. LOGGING*
 
-6.1 Introduction
+**6.1 Introduction**
 
-6.2 Importance of Logging
+**6.2 Importance of Logging**
 
-6.3 Log4j properties
+**6.3 Log4j properties**
 
 - Log4j configuration
 - Logging Levels
