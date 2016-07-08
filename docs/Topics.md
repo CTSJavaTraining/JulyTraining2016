@@ -1,6 +1,6 @@
 **Topics**
 
-1. 1 **Core Java**
+**1. Core Java**
 
 1.1 Core Java
 
