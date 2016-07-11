@@ -36,12 +36,12 @@
 **_Signed User_** --
 
 * _User may use the signup form or may login using social channels._
-* _In case of social channels, system needs to support Oauth2 protocole to populate signup form._
+* _In case of social channels, system needs to support Oauth2 protocol to populate signup form._
 * _An user database needs to be maintained by the system._
 * _An user may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
-* _An user may subscribe to set of interrests e.g. Music: A.R. Rahaman, Movies:  Si-Fi e.t.c._
-* _An uaers may rate item(s)._
-* _Based on the interrests and rating, new items will be recommended to the user._
+* _An user may subscribe to set of interests e.g. Music: A.R. Rahman, Movies:  Si-Fi e.t.c._
+* _An user may rate one or more item(s)._
+* _Based on the interests and rating, new items will be recommended to the user._
 
 **_Member_** --
 
@@ -57,9 +57,9 @@
 * _A member may see his own history of lending items from the library._
 * _An user database needs to be maintained by the system._
 * _An user may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
-* _An user may subscribe to set of interrests e.g. Music: A.R. Rahaman, Movies:  Si-Fi e.t.c._
+* _An user may subscribe to set of interests e.g. Music: A.R. Rahman, Movies:  Si-Fi e.t.c._
 * _An uaers may rate item(s)._
-* _Based on the interrests and rating, new items will be recommended to the user._
+* _Based on the interests and rating, new items will be recommended to the user._
 
 **_Anonymous_** --
 
