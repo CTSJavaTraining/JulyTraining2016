@@ -10,7 +10,7 @@
 > The online library will maintain an inventory of Books, Movies and Music. Customers may register to the library using the signup page or may login using social channels and become a member of the library after paying certain registration amount. A member may lend an item from the library also should be able to return the item to the library. A member may have different types of memberships based on which the system will determine his/her eligibility to lend the item(s).
 
 ## DESCRIPTION
-   ##### ITEM SPECIFICATION
+##### ITEM SPECIFICATION
     * _Library will maintain an inventory of Books, Movies & Music Items._
     * _An Item have following mandatory attributes: name, year, price, description & format._
     * _An Item may have number of copies._
@@ -21,7 +21,7 @@
     * _Books may be present in physical or e-book format. (for e-books format, number of copies is not required.)_
     * _Movies and Music may be in CD, DVD, Blu-Ray or Digital format. (for digital format, number of copies is not required.)_
     * _The library will maintain number of copies of the Item in case of physical media._
-   ##### USER CATAGORIES
+##### USER CATAGORIES
        **_Librarian_** --  
         *  _A librarian may add, modify, delete Items in the library._
         *  _A librarian may approve, reject, cancel membership of a user._
@@ -41,14 +41,14 @@
         * _The user will not be able to lend an Item until he/she subscribes to a membership scheme._
 
 ##### IN SCOPE
-   ##### OUT SCOPE
-   ##### ASSUMPTIONS
+##### OUT SCOPE
+##### ASSUMPTIONS
 ## FUNTIONAL REQUIREMENTS
-   ##### MUST HAVE
-   ##### GOOD TO HAVE
+##### MUST HAVE
+##### GOOD TO HAVE
 ## NON-FUNTIONAL REQUIREMENTS
-   ##### MUST HAVE
-   ##### GOOD TO HAVE
+##### MUST HAVE
+##### GOOD TO HAVE
 ## TECHNOLOGIES
 ## DATABASE 
 ## APPLICATION SERVERS
