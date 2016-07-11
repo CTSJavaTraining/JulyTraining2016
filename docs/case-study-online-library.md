@@ -37,11 +37,11 @@
 
 * _User may use the signup form or may login using social channels._
 * _In case of social channels, system needs to support Oauth2 protocol to populate signup form._
-* _An user database needs to be maintained by the system._
-* _An user may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
-* _An user may subscribe to set of interests e.g. Music: A.R. Rahman, Movies:  Si-Fi e.t.c._
-* _An user may rate one or more item(s)._
-* _Based on the interests and rating, new items will be recommended to the user._
+* _A signed user database needs to be maintained by the system._
+* _A signed user may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
+* _A signed user may subscribe to set of interests e.g. Music: A.R. Rahman, Movies:  Si-Fi e.t.c._
+* _A signed user may rate one or more item(s)._
+* _Based on the interests and rating, new items will be recommended to the signed user._
 
 **_Member_** --
 
@@ -77,7 +77,7 @@
 
 #### TECHNOLOGIES
 
-* **Java1.8, Spring4, JPA/Hibernate, JAX-RS/CXF-REST, JAX-WS/CXF-WS, Spring-JDBC, Sping Batch. Maven**
+* **Java1.8, Spring4, JPA/Hibernate, JAX-RS/CXF-REST, JAX-WS/CXF-WS, Spring-JDBC, Spring Batch. Maven**
 
 #### DATABASE 
 
@@ -110,7 +110,7 @@
 #### CONCURRENCY
 
 * _Multiple concurrent logging for librarians are allowed._
-* _Multiple concurrent login for the members and signed users are not alloaed._
+* _Multiple concurrent login for the members and signed users are not allowed._
 * _System should take card of the producer and consumer problem._
 * _System should take care about the concurrent update of an item or user profile._
 
@@ -131,8 +131,10 @@
 * _Jenkins, GIT, Sonar integration with code quality report._
 * _Circuit Breaker and fallbacks._
 * _No issues present in the code (As per Findbug report)._
-* _Code coverage is more than 80%._
-* _Item entity is auditable (e.g. creted by created date/time, last updated by , last updated date/time will be captured for auditing purpose)._
+* _Code coverage will be more than 80%._
+* _Item entity will be auditable (e.g. created by, created date/time, last updated by, last updated date/time will be captured for auditing purpose)._
+* _Use of lambda functions in business logic and validations._
+* _Use of multithreading, paralallism, fork-join & Future wherever applicable._
 
 ## OUT OF SCOPE
 
