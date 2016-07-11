@@ -69,7 +69,7 @@
 * _No user information will be stored in the system for anonymous users._
 
 
-##### BATCH
+##### BATCH JOBS
 * _If an Item is lend over two weeks, the system will send daily email notification to the user and the librarian._
 * _Membership will be expired automatically after certain period and the user will be demoted to signed user; however the membership may be renewed or upgraded by paying certain amount._ 
 
