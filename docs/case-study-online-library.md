@@ -94,3 +94,26 @@
 ## APPLICATION SERVERS
 
 * **Tomcat8**
+
+##	NONFUNCTIONAL REQUIREMENTS:
+*	PERFORMANCE:
+** Performance requirements define acceptable response times for system functionality.
+	The load time for user interface screens shall take no longer than five seconds.
+	The log in information shall be verified within five seconds.
+	Queries shall return results within five seconds.
+3.3.2	RELIABILITY:
+	Good validations for user inputs will be done.
+	Avoid incorrect storage of records.
+3.3.3	SECURITY :
+	Encrypted Password.
+	Administrator has more rights than the sub user.
+
+3.3.4	PORTABILITY: 
+	This Website opens in any personal computer supporting windows, Linux, Unit operating system.
+3.3.5	FLEXIBILITY:
+	The system keeps on updating the data according to the transactions that takes place.
+3.3.6	MAINTAINABILITY:
+	During maintenance stage, the SRS can be referred for the validation.
+3.3.7	TIMELINESS:
+	The system carries out all the operations with consumptions of very less time.
+
