@@ -73,16 +73,6 @@
 * _If an Item is lend over two weeks, the system will send daily email notification to the user and the librarian._
 * _Membership will be expired automatically after certain period and the user will be demoted to signed user; however the membership may be renewed or upgraded by paying certain amount._ 
 
-##### OUT OF SCOPE
-
-* _Online Payment, Payment Gateway is out of scope._
-* _Sending SMS is out of scope._
-
-##### GOOD TO HAVE
-
-* _At least one Social Channel Integration._
-* _Jenkins, GIT, Sonar integration with code quality report.
-
 ## TECHNOLOGIES
 
 * **Java1.8, Spring4, JPA/Hibernate, JAX-RS/CXF-REST, JAX-WS/CXF-WS, Spring-JDBC, Sping Batch. Maven**
@@ -97,27 +87,45 @@
 
 ##	NONFUNCTIONAL REQUIREMENTS
 
-*	PERFORMANCE:
+*	**PERFORMANCE**
 
-> Performance requirements define acceptable response times for system functionality.
+* _The load time for user interface screens shall take no longer than five seconds._
+* _The log in information shall be verified within five seconds._
+* _Queries shall return results within five seconds._
 
-  * The load time for user interface screens shall take no longer than five seconds.
-  * The log in information shall be verified within five seconds.
-  * Queries shall return results within five seconds.
-  *	RELIABILITY:
-  * Good validations for user inputs will be done.
-  * Avoid incorrect storage of records.
+*	**AVAILABILITY**
 
-3.3.3	SECURITY :
-	Encrypted Password.
-	Administrator has more rights than the sub user.
+* The system should be stateless and dynamically scalable.
 
-3.3.4	PORTABILITY: 
-	This Website opens in any personal computer supporting windows, Linux, Unit operating system.
-3.3.5	FLEXIBILITY:
-	The system keeps on updating the data according to the transactions that takes place.
-3.3.6	MAINTAINABILITY:
-	During maintenance stage, the SRS can be referred for the validation.
-3.3.7	TIMELINESS:
-	The system carries out all the operations with consumptions of very less time.
+*	**RELIABILITY**
 
+* _Good validations for user inputs will be done._
+* _Avoid storing inconsistence data._
+* _Proper exception handling._
+
+* **SECURITY**
+
+* _Encrypted Password._
+
+
+* **RESPONSIVENESS**
+
+* _UI should be responsive._
+
+*	**MAINTAINABILITY**
+
+* Need to write test case for each unit of code.
+* Use findbugs for static analysis.
+* 100% test case shoud be successful.
+* Maintain SOLID Principle while developing code.
+
+##### GOOD TO HAVE
+
+* _At least one Social Channel Integration._
+* _Jenkins, GIT, Sonar integration with code quality report.
+* _Circuit Braker and fallbacks._
+
+##### OUT OF SCOPE
+
+* _Online Payment, Payment Gateway is out of scope._
+* _Sending SMS is out of scope._
