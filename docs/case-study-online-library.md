@@ -55,11 +55,11 @@
 * _An Item can be searched by any of its attributes._
 * _A member should have log-in credentials to create user session._
 * _A member may see his own history of lending items from the library._
-* _An user database needs to be maintained by the system._
-* _An user may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
-* _An user may subscribe to set of interests e.g. Music: A.R. Rahman, Movies:  Si-Fi e.t.c._
-* _An uaers may rate item(s)._
-* _Based on the interests and rating, new items will be recommended to the user._
+* _A member database needs to be maintained by the system._
+* _A member may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
+* _A member may subscribe to set of interests e.g. Music: A.R. Rahman, Movies:  Si-Fi e.t.c._
+* _A member may rate item(s)._
+* _Based on the interests and rating, new items will be recommended to the member._
 
 **_Anonymous_** --
 
@@ -80,7 +80,7 @@
 
 ##### GOOD TO HAVE
 
-* _At least one Socila Channel Integration._
+* _At least one Social Channel Integration._
 * _Jenkins, GIT, Sonar integration with code quality report.
 
 ## TECHNOLOGIES
