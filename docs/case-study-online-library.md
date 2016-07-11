@@ -9,7 +9,7 @@
 
 > The online library will maintain an inventory of Books, Movies and Music. Customers may register to the library using the signup page or may login using social channels and become a member of the library after paying certain registration amount. A member may lend an item from the library also should be able to return the item to the library. A member may have different types of memberships based on which the system will determine his/her eligibility to lend the item(s).
 
-## DESCRIPTION
+## FUNTIONALITIES
 
 ##### ITEM SPECIFICATION
 
@@ -73,53 +73,53 @@
 * _If an Item is lend over two weeks, the system will send daily email notification to the user and the librarian._
 * _Membership will be expired automatically after certain period and the user will be demoted to signed user; however the membership may be renewed or upgraded by paying certain amount._ 
 
-## TECHNOLOGIES
+##	NONFUNCTIONAL REQUIREMENTS
+
+### TECHNOLOGIES
 
 * **Java1.8, Spring4, JPA/Hibernate, JAX-RS/CXF-REST, JAX-WS/CXF-WS, Spring-JDBC, Sping Batch. Maven**
 
-## DATABASE 
+### DATABASE 
 
 * **MySQL**
 
-## APPLICATION SERVERS
+### APPLICATION SERVERS
 
 * **Tomcat8**
 
-##	NONFUNCTIONAL REQUIREMENTS
-
-*	**PERFORMANCE**
+###	**PERFORMANCE**
 
 * _The load time for user interface screens shall take no longer than five seconds._
 * _The log in information shall be verified within five seconds._
 * _Queries shall return results within five seconds._
 
-*	**AVAILABILITY**
+###	**AVAILABILITY**
 
 * The system should be stateless and dynamically scalable.
 
-*	**RELIABILITY**
+###	**RELIABILITY**
 
 * _Good validations for user inputs will be done._
 * _Avoid storing inconsistence data._
 * _Proper exception handling._
 
-* **SECURITY**
+### **SECURITY**
 
 * _Encrypted Password._
 
 
-* **RESPONSIVENESS**
+### **RESPONSIVENESS**
 
 * _UI should be responsive._
 
-*	**MAINTAINABILITY**
+###	**MAINTAINABILITY**
 
 * Need to write test case for each unit of code.
 * Use Findbugs (IDE plugin) for static analysis.
 * 100% test case should be successful.
 * Maintain SOLID Principle while developing code.
 
-##### GOOD TO HAVE
+## GOOD TO HAVE
 
 * _At least one Social Channel Integration._
 * _Jenkins, GIT, Sonar integration with code quality report.
@@ -127,7 +127,7 @@
 * _No issues present in the code (As per Findbug report)._
 * _Code coverage is more than 80%._
 
-##### OUT OF SCOPE
+## OUT OF SCOPE
 
 * _Online Payment, Payment Gateway is out of scope._
 * _Sending SMS is out of scope._
