@@ -14,12 +14,12 @@
 ##### ITEM SPECIFICATION
 
 * _Library will maintain an inventory of Books, Movies & Music Items._
-* _An Item have following mandatory attributes: name, year, price, description & format._
+* _An Item have following mandatory attributes: name, year, price, description, format, date added._
 * _An Item may have number of copies._
 * _An Item may be associated with multiple tags._
-* _A Book may have following attributes: author(s), publisher(s), edition no._
-* _A Music may have production(s), writer(s), singer(s)._
-* _A Movie may have production(s), writer(s), singers(s), director(s), cast(s)_
+* _A Book may have following attributes: author(s), publisher(s), edition no, rating_
+* _A Music may have production(s), writer(s), singer(s), release date._
+* _A Movie may have production(s), writer(s), singers(s), director(s), cast(s), release date_
 * _Books may be present in physical or e-book format. (for e-books format, number of copies is not required.)_
 * _Movies and Music may be in CD, DVD, Blu-Ray or Digital format. (for digital format, number of copies is not required.)_
 * _The library will maintain number of copies of the Item in case of physical media._
@@ -49,15 +49,37 @@
 * _All Item search functionality will be available for this user._
 * _The user will not be able to lend an Item until he/she subscribes to a membership scheme._
 
-##### IN SCOPE
-##### OUT SCOPE
-##### ASSUMPTIONS
-## FUNTIONAL REQUIREMENTS
-##### MUST HAVE
+##### SIGNUP
+
+* _User may use the signup form or may login using social channels._
+* _In case of social channels, system needs to support Oauth2 protocole to integrate with social channels_
+* _An user database needst to be maintained by the system._
+* _An user may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
+* _An user may subscribe to set of interrests e.g. Music: A.R. Rahaman, Movies:  Si-Fi e.t.c._
+* _An uaers may rate item(s)._
+* _Based on the interrests and rating, new items will be recommended to the user._
+
+##### BATCH
+* _If an Item is lend over two weeks, the system will send daily notification to the user and the librarian._
+
+##### OUT OF SCOPE
+
+* _Online Payment, Payment Gateway is out of scope._
+* _Sending email, SMS is out of scope._
+
 ##### GOOD TO HAVE
-## NON-FUNTIONAL REQUIREMENTS
-##### MUST HAVE
-##### GOOD TO HAVE
+
+* _At least one Socila Channel Integration._
+* _Jenkins, GIT, Sonar integration with code quality report.
+
 ## TECHNOLOGIES
+
+* **Java1.8, Spring4, JPA/Hibernate, JAX-RS/CXF-REST, JAX-WS/CXF-WS, Spring-JDBC, Sping Batch. Maven**
+
 ## DATABASE 
+
+* **MySQL**
+
 ## APPLICATION SERVERS
+
+* **Tomcat8**
