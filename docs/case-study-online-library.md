@@ -3,11 +3,11 @@
 ## INTRODUCTION
 ##### PURPOSE
 
-   > The purpose of this document is to specify the software requirement for an online library system. 
+> The purpose of this document is to specify the software requirement for an online library system. 
 
 ##### OVERVIEW
 
-   > The online library will maintain an inventory of Books, Movies and Music. Customers may register to the library using the signup page or may login using social channels and become a member of the library after paying certain registration amount. A member may lend an item from the library also should be able to return the item to the library. A member may have different types of memberships based on which the system will determine his/her eligibility to lend the item(s).
+> The online library will maintain an inventory of Books, Movies and Music. Customers may register to the library using the signup page or may login using social channels and become a member of the library after paying certain registration amount. A member may lend an item from the library also should be able to return the item to the library. A member may have different types of memberships based on which the system will determine his/her eligibility to lend the item(s).
 
 ## DESCRIPTION
    ##### ITEM SPECIFICATION
@@ -40,7 +40,7 @@
         * _All Item search functionality will be available for this user._
         * _The user will not be able to lend an Item until he/she subscribes to a membership scheme._
 
- ##### IN SCOPE
+##### IN SCOPE
    ##### OUT SCOPE
    ##### ASSUMPTIONS
 ## FUNTIONAL REQUIREMENTS
