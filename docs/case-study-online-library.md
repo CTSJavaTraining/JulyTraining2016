@@ -107,6 +107,12 @@
 
 * _Encrypted Password._
 
+#### CONCURRENCY
+
+* _Multiple concurrent logging for librarians are allowed._
+* _Multiple concurrent login for the members and signed users are not alloaed._
+* _System should take card of the producer and consumer problem._
+* _System should take care about the concurrent update of an item or user profile._
 
 #### RESPONSIVENESS
 
@@ -126,6 +132,7 @@
 * _Circuit Breaker and fallbacks._
 * _No issues present in the code (As per Findbug report)._
 * _Code coverage is more than 80%._
+* _Item entity is auditable (e.g. creted by created date/time, last updated by , last updated date/time will be captured for auditing purpose)._
 
 ## OUT OF SCOPE
 
