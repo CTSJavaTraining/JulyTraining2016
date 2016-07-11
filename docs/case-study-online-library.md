@@ -95,15 +95,19 @@
 
 * **Tomcat8**
 
-##	NONFUNCTIONAL REQUIREMENTS:
+##	NONFUNCTIONAL REQUIREMENTS
+
 *	PERFORMANCE:
-** Performance requirements define acceptable response times for system functionality.
-	The load time for user interface screens shall take no longer than five seconds.
-	The log in information shall be verified within five seconds.
-	Queries shall return results within five seconds.
-3.3.2	RELIABILITY:
-	Good validations for user inputs will be done.
-	Avoid incorrect storage of records.
+
+> Performance requirements define acceptable response times for system functionality.
+
+  * The load time for user interface screens shall take no longer than five seconds.
+  * The log in information shall be verified within five seconds.
+  * Queries shall return results within five seconds.
+  *	RELIABILITY:
+  * Good validations for user inputs will be done.
+  * Avoid incorrect storage of records.
+
 3.3.3	SECURITY :
 	Encrypted Password.
 	Administrator has more rights than the sub user.
