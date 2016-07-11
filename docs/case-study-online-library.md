@@ -30,10 +30,22 @@
 
 *  _A librarian may add, modify, delete Items in the library._
 *  _A librarian may approve, reject, cancel membership of a user._
+*  _A librarian may search and view the history of lending items for a specific user._
 *  _A librarian should have log-in credentials to create user session._
+
+**_Signed User_** --
+
+* _User may use the signup form or may login using social channels._
+* _In case of social channels, system needs to support Oauth2 protocole to populate signup form._
+* _An user database needs to be maintained by the system._
+* _An user may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
+* _An user may subscribe to set of interrests e.g. Music: A.R. Rahaman, Movies:  Si-Fi e.t.c._
+* _An uaers may rate item(s)._
+* _Based on the interrests and rating, new items will be recommended to the user._
 
 **_Member_** --
 
+* _A signed user may pay for a specific membership scheme and may get a membership for specific period._
 * _A member may search for an item present in the library._  
 * _A member may see the availability of an Item in the library._
 * _A member may create his personalize wish list with the items available in the library._
@@ -42,30 +54,29 @@
 * _Each type of membership have certain limit (e.g. Basic membership may lend items for which total cost should not exceed $200 at any point of time)._
 * _An Item can be searched by any of its attributes._
 * _A member should have log-in credentials to create user session._
-
-**_Anonymous_** --
-
-* _An anonymous user may come to the system without logging in. Signup or logging using social channels are not mandatory for the above function(s)_
-* _All Item search functionality will be available for this user._
-* _The user will not be able to lend an Item until he/she subscribes to a membership scheme._
-
-##### SIGNUP
-
-* _User may use the signup form or may login using social channels._
-* _In case of social channels, system needs to support Oauth2 protocole to integrate with social channels_
-* _An user database needst to be maintained by the system._
+* _A member may see his own history of lending items from the library._
+* _An user database needs to be maintained by the system._
 * _An user may have following attributes: Name, Age, Gender, Languages, postal address, email, mobile e.t.c._
 * _An user may subscribe to set of interrests e.g. Music: A.R. Rahaman, Movies:  Si-Fi e.t.c._
 * _An uaers may rate item(s)._
 * _Based on the interrests and rating, new items will be recommended to the user._
 
+**_Anonymous_** --
+
+* _An anonymous user may come to the system without logging in. Signup or logging using social channels are not mandatory for the below function(s)_
+* _All Item search functionality will be available for this user._
+* _The user will not be able to lend an Item until he/she subscribes to a membership scheme._
+* _No user information will be stored in the system for anonymous users._
+
+
 ##### BATCH
-* _If an Item is lend over two weeks, the system will send daily notification to the user and the librarian._
+* _If an Item is lend over two weeks, the system will send daily email notification to the user and the librarian._
+* _Membership will be expired automatically after certain period and the user will be demoted to signed user; however the membership may be renewed or upgraded by paying certain amount._ 
 
 ##### OUT OF SCOPE
 
 * _Online Payment, Payment Gateway is out of scope._
-* _Sending email, SMS is out of scope._
+* _Sending SMS is out of scope._
 
 ##### GOOD TO HAVE
 
