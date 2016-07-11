@@ -134,7 +134,7 @@
 * _Code coverage will be more than 80%._
 * _Item entity will be auditable (e.g. created by, created date/time, last updated by, last updated date/time will be captured for auditing purpose)._
 * _Use of lambda functions in business logic and validations._
-* _Use of multithreading, paralallism, fork-join & Future wherever applicable._
+* _Use of multithreading, parallel processing, fork-join & Future wherever applicable._
 
 ## OUT OF SCOPE
 
