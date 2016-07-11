@@ -75,44 +75,44 @@
 
 ##	NONFUNCTIONAL REQUIREMENTS
 
-### TECHNOLOGIES
+#### TECHNOLOGIES
 
 * **Java1.8, Spring4, JPA/Hibernate, JAX-RS/CXF-REST, JAX-WS/CXF-WS, Spring-JDBC, Sping Batch. Maven**
 
-### DATABASE 
+#### DATABASE 
 
 * **MySQL**
 
-### APPLICATION SERVERS
+#### APPLICATION SERVERS
 
 * **Tomcat8**
 
-###	**PERFORMANCE**
+####	**PERFORMANCE**
 
 * _The load time for user interface screens shall take no longer than five seconds._
 * _The log in information shall be verified within five seconds._
 * _Queries shall return results within five seconds._
 
-###	**AVAILABILITY**
+####	**AVAILABILITY**
 
 * The system should be stateless and dynamically scalable.
 
-###	**RELIABILITY**
+####	**RELIABILITY**
 
 * _Good validations for user inputs will be done._
 * _Avoid storing inconsistence data._
 * _Proper exception handling._
 
-### **SECURITY**
+#### **SECURITY**
 
 * _Encrypted Password._
 
 
-### **RESPONSIVENESS**
+#### **RESPONSIVENESS**
 
 * _UI should be responsive._
 
-###	**MAINTAINABILITY**
+####	**MAINTAINABILITY**
 
 * Need to write test case for each unit of code.
 * Use Findbugs (IDE plugin) for static analysis.
