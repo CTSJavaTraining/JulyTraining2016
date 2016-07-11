@@ -114,15 +114,15 @@
 
 ####	MAINTAINABILITY
 
-* Need to write test case for each unit of code.
-* Use Findbugs (IDE plugin) for static analysis.
-* 100% test case should be successful.
-* Maintain SOLID Principle while developing code.
+* _Need to write test case for each unit of code._
+* _Use Findbugs (IDE plugin) for static analysis._
+* _100% test case should be successful._
+* _Maintain SOLID Principle while developing code._
 
 ## GOOD TO HAVE
 
 * _At least one Social Channel Integration._
-* _Jenkins, GIT, Sonar integration with code quality report.
+* _Jenkins, GIT, Sonar integration with code quality report._
 * _Circuit Breaker and fallbacks._
 * _No issues present in the code (As per Findbug report)._
 * _Code coverage is more than 80%._
