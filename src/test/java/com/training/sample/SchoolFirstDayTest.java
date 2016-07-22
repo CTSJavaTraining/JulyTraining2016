@@ -15,6 +15,7 @@ public class SchoolFirstDayTest {
 	SchoolFirstDay school = new SchoolFirstDay();
 	String[] bag1 = { "Books", "Notebooks", "Pens" };
 	String[] bag2 = { "Books", "Notebooks", "Pens", "Pencils" };
+	String[] bag3 = { "Books", "Notebooks", "Pencils", "Pens" };
 	
 	@BeforeClass
 	// Will be performed before all test.
@@ -54,5 +55,11 @@ public class SchoolFirstDayTest {
 	public void testAddPencils() {
 		System.out.println("Inside testAddPencils()");
 		assertArrayEquals(bag2, school.addPencils());
+	}
+	
+	@Test
+	public void testSortItems() {
+		System.out.println("Inside SortItems()");
+		assertArrayEquals(bag3, school.sortItems());
 	}
 }
