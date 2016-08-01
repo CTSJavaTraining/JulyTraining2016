@@ -7,7 +7,7 @@ import java.util.Collections;
 
 public class SchoolFirstDay {
 	
-	String [] schoolbag= null;
+	public static String [] schoolbag= null;
 
 	public String[] prepareMyBag() {
 		schoolbag = new String[] { "Books", "Notebooks", "Pens" };
