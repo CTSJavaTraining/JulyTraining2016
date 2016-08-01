@@ -24,7 +24,7 @@ public class SchoolFirstDay {
 	public String[] sortItems()
 	{
 		List<String> wordList = new ArrayList<String>(); 
-		wordList= Arrays.asList(schoolbag);  
+		wordList.addAll(Arrays.asList(schoolbag));  
 		Collections.sort(wordList,(s1, s2) -> s1.compareTo(s2));
 		schoolbag= wordList.toArray(schoolbag);
 		return schoolbag;
